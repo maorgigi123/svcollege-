@@ -1,0 +1,27 @@
+.title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+.container_register {
+   width: 100vw;
+   display: flex;
+   justify-content: center;
+}
+.container_form {
+    display: flex;
+    width: 520px;
+    flex-wrap: wrap;
+    gap: 80px;
+
+    margin-bottom: 80px;
+}
+
+.formInput {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.formInput >button {
+    width: 150px;
+}
