@@ -1,7 +1,10 @@
 .title {
     text-align: center;
     margin-top: 50px;
-    margin-bottom: 200px;
+    margin-bottom: 140px;
+    font-weight: bold;
+    font-size: 3rem;
+    user-select: none;
 }
 .container_register {
    width: 100vw;
@@ -21,6 +24,8 @@
     width: 100vw;
     display: flex;
     justify-content: center;
+    gap: 50px;
+
 }
 .formInput >button {
     width: 150px;

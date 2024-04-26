@@ -1,0 +1,25 @@
+.addPlayerContainer {
+    display: flex;
+    align-items: center;
+    gap:25px;
+}
+.lineupContainer {
+    display: flex;
+    width: 220px;
+    align-items: center;
+    justify-content: space-evenly;
+    user-select: none;
+}
+
+.lineupContainer > input {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.addPlayerButton > button {
+    width: 150px;
+}
+.addPlayerButton > button:hover {
+   background-color: rgb(221, 221, 32);
+}

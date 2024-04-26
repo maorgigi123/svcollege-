@@ -1,0 +1,34 @@
+.editPlayerContainer {
+    display: flex;
+    align-items: center;
+    gap:25px;
+}
+.lineupContainer {
+    display: flex;
+    width: 220px;
+    align-items: center;
+    justify-content: space-evenly;
+    user-select: none;
+}
+
+.lineupContainer > input {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.EditPlayerButton > button {
+    width: 150px;
+}
+.EditPlayerButton > button:hover {
+   background-color: rgb(221, 221, 32);
+}
+
+.playersSelect {
+    width: 220px;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}

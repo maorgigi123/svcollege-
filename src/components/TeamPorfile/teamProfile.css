@@ -1,0 +1,75 @@
+
+.container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navbarContainer {
+    height: 70vh;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 40px;
+    overflow-y: auto;
+    
+}
+.navbarContainer > button {
+    width: 150px;
+}
+.navbarContainer > button:hover {
+    background-color: azure;
+}
+.teamTitle {
+    margin-top: 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.teamContainer {
+    height: 70vh;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    overflow-y: auto;
+    flex: .85;
+}
+.SearchPlayer {
+    margin: 40px auto;
+}
+.SearchPlayer > input::placeholder{
+    font-weight: bold;
+}
+.PlayerTeamContainer {
+    border: 3px solid black;
+    max-width: 150px;
+    height: 140px; 
+    padding: 30px; 
+    user-select: none;
+
+}
+.PlayersContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 80px;
+    justify-content: center;
+}
+.ShowAllPlayersContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.ShowAllPlayersContainer > button { 
+    width: 250px;
+    margin: 40px 40px 0px 40px;
+    color: black;
+    font-weight: bold;
+    background-color: lightskyblue;
+    border: none;
+}
+
+.ShowAllPlayersContainer > button:hover { 
+   background-color: aqua;
+}
